@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Countries Info</title>
+    <link rel="shortcut icon" href="https://www.freeiconspng.com/thumbs/search-icon-png/search-icon-png-21.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <header class="site-header">
+        <div class="container header-section">
+            <a href="#" class="site-logo"> Where in the world? </a>
+            <div class="dark-mode">
+                <button class="toggleBtn">
+                <h4 class="dark-title">Dark mode</h4>
+               </button>
+            </div>
+        </div>
+    </header>
+
+    <section class="search-bar container hidden">
+        <form action="" class="search-form">
+            <input type="search" class="search-input" placeholder="Search for a country…" />
+        </form>
+        <form class="select-region">
+            <select name="regions" id="regions" class="selectors">
+                <option value="0" selected>Sort by regions</option>
+                <option value="Africa">Africa</option>
+                <option value="America">America</option>
+                <option value="Asia">Asia</option>
+                <option value="Europe">Europe</option>
+               <option value="Oceania">Oceania</option>
+            </select>
+        </form>
+    </section>
+    <div class="box ">
+        <div class="containers">
+            <span class="circle"></span>
+            <span class="circle"></span>
+            <span class="circle"></span>
+            <span class="circle"></span>
+        </div>
+    </div>
+    <section class="countries">
+        <div class="container grid">
+        </div>
+    </section>
+    <footer>
+        <center>
+            <h1>Created by <span>Sonali Kumari</span> || 2022<br>&copy; <span>All Rights</span> || Reserved</h1>
+        </center>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
