@@ -24,7 +24,7 @@ let grid = document.querySelector('.grid')
           console.log(allCountry[i], i);
       }
       allCountry.forEach(data => {
-          const { name, flags, capital, population, region, subregion, area, timezones, } = data
+          const { name, flags, capital, population, region, subregion, area, } = data
   
           let span = document.createElement('span')
           span.setAttribute('id', `${name.common}`);
@@ -39,7 +39,6 @@ let grid = document.querySelector('.grid')
           <h2 class="subreg"> Sub-Region: ${subregion}</h2>
           <h2 class="cap"> Capital: ${capital}</h2>
           <h2 class="area"> Area: ${area}</h2>
-          <h2 class="timez"> Timezones: ${timezones}</h2>
           <div class='cent'>
           <a href='#?${name.common}' class='about'>About this country</a>
           </div>
